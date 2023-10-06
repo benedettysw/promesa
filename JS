@@ -1,0 +1,27 @@
+function promesa(){
+        return new Promise(function(resolve,reject){
+            let acasa = true;
+
+            
+            if (acasa === true) {
+                let celular = {
+                    color : "azul",
+                    modelo: "samsung",
+
+                }
+                resolve(celular);
+        }else{
+            reject("no tines nada");
+        }
+    });
+    }
+
+
+
+promesa().then(function (mensaje) {
+        console.log(mensaje);
+}).catch(function (error) {
+    console.log(error);
+    });
+
+    
