@@ -1,0 +1,14 @@
+var color = prompt("Color")
+switch (color) {
+    case "azul":
+    console.log("es azul")
+    break;
+
+    case "red":
+    console.log("es red")
+    break;
+
+    default:
+    console.log("es default")
+    break;
+}
